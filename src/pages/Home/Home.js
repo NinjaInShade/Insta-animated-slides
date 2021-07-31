@@ -6,7 +6,13 @@ import './Home.css';
 export default function Home() {
   return (
     <main className='home main-bg'>
-      <InstaSlide dark={true} topic_name='TECH NEWS' slide_num='01' />
+      <InstaSlide
+        dark={true}
+        topic_name='TECH NEWS'
+        slide_num='01'
+        title='This is the future!'
+        description='Get suggestions for whole lines or entire functions right inside your editor.'
+      />
     </main>
   );
 }

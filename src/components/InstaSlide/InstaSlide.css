@@ -45,7 +45,36 @@
 }
 
 .insta-slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-grow: 1;
+}
+
+.insta-slide-content-title {
+  color: #000;
+  text-align: center;
+  font-size: var(--title);
+  line-height: 108%;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.insta-slide-dark .insta-slide-content-title {
+  color: #fff;
+}
+
+.insta-slide-content-description {
+  text-align: center;
+  font-size: var(--body);
+  color: var(--body-text-on-light);
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.insta-slide-dark .insta-slide-content-description {
+  color: var(--body-text-on-dark);
 }
 
 .insta-slide-watermark {

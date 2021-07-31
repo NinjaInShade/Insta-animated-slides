@@ -2,6 +2,7 @@
 @import 'normalize.css/opinionated.css';
 
 * {
+  font-family: 'Bai Jamjuree', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -13,6 +14,19 @@
 
 :root {
   /* Define custom vars here */
+  --topic-on-dark: rgba(255, 255, 255, 0.6);
+  --topic-on-light: rgba(0, 0, 0, 0.6);
+  --body-text-on-dark: rgba(255, 255, 255, 0.75);
+  --body-text-on-light: rgba(0, 0, 0, 0.75);
+  --title: 85px;
+  --slide-num: 60px;
+  --topic: 45px;
+  --body: 35px;
+  --body-small: 30px;
+  --bg: #093968;
+  --primary: #5ed4fb;
+  --txt: #f6fafe;
+  --txt-b: #041a2f;
 
   /* Neutral colours */
   --neutral-50: #f9fafb;

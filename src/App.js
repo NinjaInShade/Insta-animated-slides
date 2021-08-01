@@ -6,6 +6,7 @@ import './App.css';
 require('dotenv').config();
 
 const Home = lazy(() => import('./pages/Home/Home'));
+const Post14 = lazy(() => import('./pages/Post-14/Post-14'));
 const NoMatch = lazy(() => import('./pages/NoMatch/NoMatch'));
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
           {/* Entry page for application - the home page */}
           <Route path='/' exact>
             <Home />
+          </Route>
+
+          <Route path='/post14' exact>
+            <Post14 />
           </Route>
 
           {/* 404 page not found route ( any routes not matching go here ) */}

@@ -14,10 +14,11 @@
 
 :root {
   /* Define custom vars here */
-  --bg: hsl(208, 100%, 92%);
-  --txt: hsl(228, 84%, 12%);
-  --txt-opacity: hsla(228, 84%, 12%, 0.7);
-  --primary: hsl(205, 91%, 35%);
+  --bg: #d6ecff;
+  --txt: #050f38;
+  --txt-opacity: #050f38b3;
+  --bright: #0a7ddb;
+  --primary: #0867aa;
 
   /* Neutral colours */
   --neutral-50: #f9fafb;

@@ -72,10 +72,34 @@
   font-size: 88px;
 }
 
+.insta-slide-content-title {
+  color: #0000;
+  cursor: pointer;
+  padding: 0 20px;
+
+  text-shadow: 0 var(--_t, 120px) #fff, 0 0 var(--_c, #050f38);
+  box-shadow: 0 var(--_t, 120px) #0a7ddb;
+  clip-path: inset(0 0 0 0);
+  background: linear-gradient(#0a7ddb 0 0) 0 var(--_t, 120px) no-repeat;
+  transition: 0.4s, clip-path 0.4s 0.4s;
+}
+
+.insta-slide-content-title:hover {
+  --_t: 0;
+  --_c: #0000;
+  clip-path: inset(0 0 calc(-1 * 120px) 0);
+  transition: 0.4s 0.4s, clip-path 0.4s;
+}
+
 .insta-slide-content-description {
   text-align: center;
   color: var(--txt-opacity);
   line-height: 60px;
   font-weight: 500;
   font-size: 36px;
+}
+
+.insta-slide-image {
+  margin-top: 60px;
+  max-width: 60%;
 }

@@ -6,11 +6,11 @@ export default function Watermark({ dark }) {
   return (
     <div className={`watermark-container ${dark && 'watermark-container-dark'}`}>
       <div className='watermark-circle'>
-        <img src={Logo} className='watermark-logo' alt='LM Developer logo' />
+        <img src={Logo} className='watermark-logo' alt='Frontend Guy logo' />
       </div>
       <div>
-        <p className='watermark-name'>LM Development</p>
-        <p className='watermark-handle'>@lmdeveloper</p>
+        <p className='watermark-name'>TheFrontendGuy</p>
+        <p className='watermark-handle'>@thefrontendguy</p>
       </div>
     </div>
   );

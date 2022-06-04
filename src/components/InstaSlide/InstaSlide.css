@@ -1,5 +1,5 @@
 .main-bg {
-  background: var(--neutral-600);
+  background-color: var(--neutral-600);
 }
 
 .insta-slide {
@@ -7,41 +7,29 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: #fff;
-  padding: 50px 90px;
+  background: url('../../assets/dots.png');
+  background-color: var(--bg);
+  padding: 75px 67px;
   width: 1080px;
   height: 1350px;
 }
 
-.insta-slide-dark {
-  background: var(--bg);
-}
-
 .insta-slide-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.insta-slide-topic {
-  font-size: var(--topic);
-  color: var(--topic-on-light);
-  font-weight: 900;
-}
-
-.insta-slide-dark .insta-slide-topic {
-  color: var(--topic-on-dark);
-}
-
 .insta-slide-num {
-  font-size: var(--slide-num);
-  color: #000;
-  font-weight: 600;
-}
-
-.insta-slide-dark .insta-slide-num {
-  color: #fff;
+  color: var(--txt);
+  background-color: var(--bg);
+  border: 1px solid var(--txt);
+  padding: 13.5px 20px;
+  border-radius: 8px;
+  line-height: 33px;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 .insta-slide-content {
@@ -52,31 +40,42 @@
   flex-grow: 1;
 }
 
-.insta-slide-content-title {
-  color: #000;
-  text-align: center;
-  font-size: var(--title);
-  line-height: 108%;
-  font-weight: 600;
-  margin: 0 0 20px 0;
+.insta-slide-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.insta-slide-dark .insta-slide-content-title {
-  color: #fff;
+.insta-slide-right {
+  position: relative;
+  background-color: var(--bg);
+  border: 1px solid var(--txt);
+  border-radius: 8px;
+  height: 60px;
+  width: 85px;
+}
+
+.insta-slide-right img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.insta-slide-content-title {
+  color: var(--txt);
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 120px;
+  font-weight: 700;
+  font-size: 88px;
 }
 
 .insta-slide-content-description {
   text-align: center;
-  font-size: var(--body);
-  color: var(--body-text-on-light);
+  color: var(--txt-opacity);
+  line-height: 60px;
   font-weight: 500;
-  line-height: 120%;
-}
-
-.insta-slide-dark .insta-slide-content-description {
-  color: var(--body-text-on-dark);
-}
-
-.insta-slide-watermark {
-  margin-right: auto;
+  font-size: 36px;
 }

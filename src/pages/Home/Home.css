@@ -4,15 +4,3 @@
   align-items: center;
   min-height: 100vh;
 }
-
-.copilot-img {
-  margin: 50px 0;
-}
-
-.copilot-caption {
-  text-align: center;
-  font-size: var(--body-small);
-  color: var(--body-text-on-dark);
-  line-height: 120%;
-  font-weight: 500;
-}
